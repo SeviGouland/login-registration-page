@@ -10,3 +10,7 @@ window.onload=function(){
       this.classList.toggle('fa-eye-slash');
   });
 }
+
+function doSomething() {
+  document.getElementById("test").innerHTML = "Goodbye";
+}
