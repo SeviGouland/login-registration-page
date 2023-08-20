@@ -21,15 +21,23 @@
         <div class="card-body">
             <form id="loginForm">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Username</label>
+                    <label for="username" class="form-label">Όνομα χρήστη</label>
                     <input type="text" class="form-control" id="username" name="username" required>
                 </div>
                 <div class="mb-3">
-                    <label for="loginPassword" class="form-label">Password</label>
+                    <label for="loginPassword" class="form-label">Κωδικός πρόσβασης</label>
                     <input type="password" class="form-control" id="password" name="password" required>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Login</button>
+                  
+             <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="agreeTerms" name="agreeTerms" required>
+                    <label class="form-check-label" for="agreeTerms">Register</label>
+                </div>
+                <button type="submit" class="btn btn-primary w-100" >Login</button>
+
             </form>
+
+            <button class="btn btn-primary mt-2 w-100" id="register-btn">Εγγραφή</button>
         </div>
     </div>
     <script src="login.js"></script>

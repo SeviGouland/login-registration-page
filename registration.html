@@ -12,32 +12,33 @@
 
 <body>
     <div class="card">
-        <div class="card-header">
+        <div class="card-header regi">
             <h3>Register</h3>
         </div>
         <div class="card-body">
             <form id="registerForm">
                 <div class="mb-3">
-                    <label for="username" class="form-label">Username</label>
+                    <label for="username" class="form-label">Όνομα χρήστη</label>
                     <input type="text" class="form-control" id="username" name="username" required>
                 </div>
                 <div class="mb-3">
-                    <label for="registerEmail" class="form-label">Email address</label>
+                    <label for="registerEmail" class="form-label">Email επικοινωνίας</label>
                     <input type="email" class="form-control" id="registerEmail" name="registerEmail" required>
                 </div>
                 <div class="mb-3">
-                    <label for="registerPassword" class="form-label">Password</label>
+                    <label for="registerPassword" class="form-label">Κωδικός πρόσβασης</label>
                     <input type="password" class="form-control" id="registerPassword" name="registerPassword" required>
                 </div>
                 <div class="mb-3">
-                    <label for="confirmPassword" class="form-label">Confirm Password</label>
+                    <label for="confirmPassword" class="form-label">Επιβεβαίωση κωδικού πρόσβασης</label>
                     <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
                 </div>
                 <div class="form-check mb-3">
                     <input type="checkbox" class="form-check-input" id="agreeTerms" name="agreeTerms" required>
-                    <label class="form-check-label" for="agreeTerms">I agree to the terms and conditions</label>
+                    <label class="form-check-label" for="agreeTerms">Συναινώ με τους όρους χρήσης</label>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Register</button>
+                <button type="submit" class="btn btn-primary w-100" id="register-btn">Register</button>
+                <button class="btn btn-primary mt-2 w-100" id="login-btn">Login</button>
             </form>
         </div>
     </div>
