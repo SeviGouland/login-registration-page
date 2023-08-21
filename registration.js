@@ -1,3 +1,3 @@
 document.getElementById("login-btn").onclick = function () {
-    location.href = "login.html";
+    location.href = "index.html";
 }
